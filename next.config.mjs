@@ -8,6 +8,7 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  distDir: 'dist',
   images: {
     unoptimized: true,
   },
@@ -22,6 +23,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
   basePath: '',
   trailingSlash: true,
 }
