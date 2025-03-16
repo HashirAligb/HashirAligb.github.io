@@ -101,11 +101,11 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-medium mb-1">LinkedIn</h4>
                     <Link
-                      href="https://linkedin.com/in/hashirali"
+                      href="https://www.linkedin.com/in/hashir-ali-b08736276/"
                       target="_blank"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      linkedin.com/in/hashirali
+                      linkedin.com/in/hashir-ali-b08736276
                     </Link>
                   </div>
                 </CardContent>
@@ -119,11 +119,11 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-medium mb-1">GitHub</h4>
                     <Link
-                      href="https://github.com/hashirali"
+                      href="https://github.com/HashirAligb"
                       target="_blank"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      github.com/hashirali
+                      github.com/HashirAligb
                     </Link>
                   </div>
                 </CardContent>
