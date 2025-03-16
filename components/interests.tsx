@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Camera, Activity, Mountain, BookOpen, Coffee } from "lucide-react"
+import { Camera, Activity, Mountain, BookOpen, Coffee, Building } from "lucide-react"
 
 const Interests = () => {
   return (
@@ -79,15 +79,17 @@ const Interests = () => {
             </CardContent>
           </Card>
 
-          <div className="lg:col-span-1 md:col-span-2 col-span-1">
-            <div className="h-full rounded-lg overflow-hidden">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_9774.jpg-k6pCHxUhNgYrTAnAlBluWlNzWFI2Dk.jpeg"
-                alt="Hashir in NYC"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+          <Card className="bg-black/50 backdrop-blur-sm border-gray-800">
+            <CardContent className="p-6 flex flex-col items-center text-center">
+              <div className="bg-primary/20 p-4 rounded-full mb-4">
+                <Building className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Museum Visits</h3>
+              <p className="text-gray-300">
+                Exploring museums and cultural institutions to gain new perspectives and inspiration. Art and history provide valuable insights that influence my creative approach to problem-solving.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
