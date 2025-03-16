@@ -11,7 +11,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
+  assetPrefix: './',
   // Ensure index.html is generated
   trailingSlash: false,
   // Skip type checking during build
