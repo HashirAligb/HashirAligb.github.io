@@ -12,7 +12,6 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
-  trailingSlash: true,
 }
 
 mergeConfig(nextConfig, userConfig)
