@@ -17,8 +17,8 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <p className="text-lg mb-6">
-              As a coding instructor at Huan Yu, I help students develop their programming skills and foster their
-              interest in technology. My experience includes internships at RICH Inc. and NYC DOE, where I've worked on
+              As a coding instructor at Huan Yu since Fall 2024, I help students develop their programming skills and foster their
+              interest in technology by teaching advanced programming courses. My experience includes internships at RICH Inc. in Summer 2024 and NYC DOE, where I've worked on
               real-world projects and honed my technical abilities.
             </p>
             <p className="text-lg mb-6">
@@ -26,8 +26,8 @@ const About = () => {
               coding, you might find me playing basketball, exploring scenic spots around the city, or enjoying a good book on technology trends.
             </p>
             <p className="text-lg">
-              Currently, I'm actively seeking software engineering internships to further develop my skills and
-              contribute to innovative projects that make a difference.
+              I'm excited to participate in hackathons starting in 2025 to further develop my skills and
+              contribute to innovative projects that make a difference. I continue to seek opportunities that challenge me and allow me to grow as a developer.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const About = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Coding Instructor</h3>
                   <p className="text-muted-foreground">
-                    Teaching programming fundamentals and advanced concepts to students at Huan Yu.
+                    Teaching programming fundamentals and advanced concepts to students at Huan Yu since Fall 2024.
                   </p>
                 </div>
               </CardContent>

@@ -4,17 +4,25 @@ import { Badge } from "@/components/ui/badge"
 const Experience = () => {
   const experiences = [
     {
+      title: "Hackathon Participant",
+      company: "Various Events",
+      period: "2025 - Present",
+      description:
+        "Participated in multiple hackathons, collaborating with diverse teams to build innovative solutions under tight deadlines.",
+      skills: ["Rapid Prototyping", "Team Collaboration", "Problem Solving", "Presentation"],
+    },
+    {
       title: "Coding Instructor",
       company: "Huan Yu",
-      period: "2023 - Present",
+      period: "Fall 2024 - Present",
       description:
-        "Teaching programming fundamentals and advanced concepts to students. Developing curriculum and providing mentorship to aspiring developers.",
-      skills: ["Teaching", "Python", "Java", "Web Development"],
+        "Teaching programming fundamentals and advanced concepts to students. Developing curriculum and providing mentorship to aspiring developers. Leading advanced programming courses.",
+      skills: ["Teaching", "Python", "Java", "Web Development", "Curriculum Development"],
     },
     {
       title: "Software Engineering Intern",
       company: "RICH Inc.",
-      period: "Summer 2023",
+      period: "Summer 2024",
       description:
         "Developed and maintained web applications. Collaborated with cross-functional teams to implement new features and fix bugs.",
       skills: ["React", "JavaScript", "API Integration", "Git"],
@@ -26,22 +34,6 @@ const Experience = () => {
       description:
         "Assisted with technical support and system maintenance. Participated in the implementation of new educational technology solutions.",
       skills: ["Technical Support", "System Administration", "Troubleshooting"],
-    },
-    {
-      title: "Photography Enthusiast",
-      company: "Freelance",
-      period: "2021 - Present",
-      description:
-        "Capturing urban landscapes and city life through photography. Developing a unique visual style that blends technology and urban environments.",
-      skills: ["Urban Photography", "Composition", "Editing", "Visual Storytelling"],
-    },
-    {
-      title: "Hackathon Participant",
-      company: "Various Events",
-      period: "2022 - Present",
-      description:
-        "Participated in multiple hackathons, collaborating with diverse teams to build innovative solutions under tight deadlines.",
-      skills: ["Rapid Prototyping", "Team Collaboration", "Problem Solving", "Presentation"],
     },
   ]
 
