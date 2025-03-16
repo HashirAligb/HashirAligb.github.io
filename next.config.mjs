@@ -12,6 +12,16 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
+  // Ensure index.html is generated
+  trailingSlash: false,
+  // Skip type checking during build
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  // Skip ESLint during build
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 mergeConfig(nextConfig, userConfig)

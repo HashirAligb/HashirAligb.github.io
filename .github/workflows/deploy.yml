@@ -36,11 +36,11 @@ jobs:
       - name: Build with Next.js
         run: npm run build
         
-      - name: Create required files
+      - name: Add required files
         run: |
-          touch out/.nojekyll
-          echo "thisishashir.org" > out/CNAME
-        
+          cp public/.nojekyll out/
+          cp public/CNAME out/
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
