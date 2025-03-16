@@ -56,12 +56,12 @@ const Hero = () => {
 
             <div className="flex gap-4 pt-4">
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://github.com/hashirali" target="_blank" aria-label="GitHub">
+                <Link href="https://github.com/HashirAligb" target="_blank" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://linkedin.com/in/hashirali" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/hashir-ali-b08736276/" target="_blank" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </Link>
               </Button>
