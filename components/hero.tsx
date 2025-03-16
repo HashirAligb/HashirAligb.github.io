@@ -25,7 +25,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <section id="home" className="relative min-h-screen flex flex-col">
+    <section id="home" className="relative min-h-screen flex flex-col bg-karbala text-white">
       <Navbar />
 
       <div className="flex-1 flex flex-col justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-16">
