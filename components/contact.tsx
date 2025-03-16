@@ -105,7 +105,7 @@ const Contact = () => {
                       target="_blank"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      linkedin.com/in/hashir-ali-b08736276
+                      www.linkedin.com/in/hashir-ali-b08736276
                     </Link>
                   </div>
                 </CardContent>
