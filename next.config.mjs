@@ -11,9 +11,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: './',
-  // Ensure index.html is generated
-  trailingSlash: false,
+  // Remove basePath and assetPrefix for GitHub Pages
+  trailingSlash: true,
   // Skip type checking during build
   typescript: {
     ignoreBuildErrors: true,
